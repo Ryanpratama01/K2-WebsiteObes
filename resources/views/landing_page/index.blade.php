@@ -34,28 +34,31 @@
       
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      
    </head>
    <body>
-      <div class="header_section">
-         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="{{asset('assets/user/images/logo.png')}}"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- header section start -->
+      <div class="header_section" style="color: white;">
+      <a class="navbar-brand"href="index.html" style="position: absolute; top: 0px; left: 20px;">
+         <img src="{{asset('assets/user/images/LogoObes.png')}}" alt="Logo Obesitaas" style="height: 70px;"></a>
+         <div class="container-fluid" style="background-color: white;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-amber-50">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: aquamarine">
                <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html" style="color: #20B2AA">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html" style="color: #20B2AA">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contact.html" style="color: #20B2AA">Contact Us</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="information.html">Login</a>
+                        <a class="nav-link" href="information.html" style="color: #20B2AA">Login</a>
                      </li>
                   </ul>
                </div>
@@ -64,44 +67,20 @@
       </div>
       <!-- header section end -->
       <!-- banner section start --> 
-      <div class="banner_section layout_padding">
+      <div class="banner_section layout_padding" style="">
          <div class="container">
             <div id="main_slider" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="row">
                         <div class="col-sm-12">
-                           <h1 class="banner_taital">Professional Model Agency</h1>
-                           <p class="banner_text">readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
-                           <div class="started_text"><a href="#">Contact Us</a></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="row">
-                        <div class="col-sm-12">
-                           <h1 class="banner_taital">Professional Model Agency</h1>
-                           <p class="banner_text">readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
-                           <div class="started_text"><a href="#">Contact Us</a></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="row">
-                        <div class="col-sm-12">
-                           <h1 class="banner_taital">Professional Model Agency</h1>
-                           <p class="banner_text">readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
+                           <h1 class="banner_taital">BUILD YOUR BODY</h1>
+                           <p class="banner_text">Obesitas adalah kondisi di mana tubuh memiliki kelebihan lemak yang berlebihan, biasanya ditandai dengan berat badan yang jauh di atas normal. Kondisi ini bukan sekadar soal penampilan, tetapi bisa berdampak serius pada kesehatan. Menjaga tubuh agar tidak mengalami obesitas penting untuk mengurangi risiko penyakit seperti diabetes, jantung, dan tekanan darah tinggi. Selain itu, berat badan ideal membantu meningkatkan energi, kualitas tidur, serta kesehatan mental. Hidup sehat juga membuat kita lebih percaya diri dan bisa menjadi contoh positif bagi orang-orang di sekitar.</p>
                            <div class="started_text"><a href="#">Contact Us</a></div>
                         </div>
                      </div>
                   </div>
                </div>
-               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-               <i class="fa fa-angle-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-               <i class="fa fa-angle-right"></i>
-               </a>
             </div>
          </div>
       </div>
