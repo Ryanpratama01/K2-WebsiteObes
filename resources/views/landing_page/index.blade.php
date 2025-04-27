@@ -85,89 +85,6 @@
          </div>
       </div>
       <!-- banner section end -->
-       <!-- models section start -->
-      <div class="models_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h1 class="models_taital">Fashion Models</h1>
-                  <p class="models_text">Various versions have evolved over the years, sometimes by accident,</p>
-               </div>
-            </div>
-            <div id="my_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="models_section_2">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="hover01 column">
-                                 <figure><img src="{{asset('assets/user/images/img-1.png')}}"></figure>
-                              </div>
-                              <h3 class="introduction_text">Various</h3>
-                              <p class="lorem_text">the years, sometimes by accid</p>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hover01 column">
-                                 <figure><img src="{{asset('assets/user/images/img-1.png')}}"></figure>
-                              </div>
-                              <h3 class="introduction_text">Various</h3>
-                              <p class="lorem_text">the years, sometimes by accid</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="models_section_2">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="hover01 column">
-                                 <figure><img src="{{asset('assets/user/images/img-1.png')}}"></figure>
-                              </div>
-                              <h3 class="introduction_text">Various</h3>
-                              <p class="lorem_text">the years, sometimes by accid</p>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hover01 column">
-                                 <figure><img src="{{asset('assets/user/images/img-1.png')}}"></figure>
-                              </div>
-                              <h3 class="introduction_text">Various</h3>
-                              <p class="lorem_text">the years, sometimes by accid</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="models_section_2">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="hover01 column">
-                                 <figure><img src="images/img-1.png"></figure>
-                              </div>
-                              <h3 class="introduction_text">Various</h3>
-                              <p class="lorem_text">the years, sometimes by accid</p>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="hover01 column">
-                                 <figure><img src="{{asset('assets/user/images/img-1.png')}}"></figure>
-                              </div>
-                              <h3 class="introduction_text">Various</h3>
-                              <p class="lorem_text">the years, sometimes by accid</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-               <i class="fa fa-angle-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-               <i class="fa fa-angle-right"></i>
-               </a>
-            </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
-         </div>
-      </div>
-      <!-- models section end -->
 
       <!-- about section start -->
       <div class="about_section layout_padding">
@@ -191,7 +108,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">Get In Touch</h1>
+                  <h1 class="contact_taital">CONTACT US</h1>
                </div>
             </div>
             <div class="contact_section_2">
@@ -208,7 +125,7 @@
                   <div class="col-md-6">
                      <div class="map_main">
                         <div class="map-responsive">
-                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="368" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Politeknik+Negeri+Jember" width="600" height="368" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                         </div>
                      </div>
                   </div>
@@ -224,9 +141,9 @@
             <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
                <a href="#" class="logo d-flex align-items-center">
-                  <span class="sitename">Mentor</span>
+                  <span class="sitename" style="color: white">Mentor</span>
                </a>
-               <div class="footer-contact pt-3">
+               <div class="footer-contact pt-3" style="color: white">
                   <p>Jalan Mastrip, Kec. Sumbersari</p>
                   <p>Politeknik Negeri Jember</p>
                   <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
@@ -241,20 +158,21 @@
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
-               <h4>Useful Links</h4>
+               <h4 style="color: white">Useful Links</h4>
                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Login</a></li>
+                  <li><a href="#" style="color: white">Home</a></li>
+                  <li><a href="#" style="color: white">About us</a></li>
+                  <li><a href="#" style="color: white">Contact</a></li>
+                  <li><a href="#" style="color: white">Login</a></li>
                </ul>
             </div>
             </div>
          </div>
 
          <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">ObesityCheck Team</strong> <span>All Rights Reserved</span></p>
+            <p style="color: white">© <span style="color: white">Copyright</span> <strong class="px-1 sitename" style="color: white">ObesityCheck Team</strong> <span style="color: white;">All Rights Reserved</span></p>
          </div>
       </footer>
+      
    </body>
 </html>

@@ -359,36 +359,10 @@ input.form-control::placeholder {
     background-color: #ffffff;
 }
 
-#main_slider a.carousel-control-prev {
-    left: -90px;
-    top: 150px;
-    z-index: 1;
-}
-
-#main_slider a.carousel-control-next {
-    right: -90px;
-    top: 150px;
-}
-
-#main_slider .carousel-control-next,
-#main_slider .carousel-control-prev {
-    width: 55px;
-    height: 55px;
-    background: #252525;
-    opacity: 1;
-    font-size: 30px;
-    color: #ffffff;
-}
-
-#main_slider .carousel-control-next:focus,
-#main_slider .carousel-control-next:hover,
-#main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-prev:hover {
-    color: #ffffff;
-    background-color: #e8576f;
-}
-
 /* banner section end */
+
+/* information_section section start */
+/* information_section section end */
 
 /* about_section section start */
 
@@ -745,13 +719,13 @@ textarea#comment::placeholder {
     text-align: center;
     font-size: 18px;
     color: #ffffff;
-    background-color: #e8576f;
+    background-color: #20b2aa;
     padding: 20px;
     text-transform: uppercase;
     margin-top: 30px;
     display: block;
     font-weight: bold;
-    border: 1px solid #e8576f;
+    border: 1px solid #20b2aa;
 }
 
 .send_bt a:hover {
@@ -770,10 +744,10 @@ textarea#comment::placeholder {
 
 /* footer section start */
 
-.footer_section {
+.footer {
     width: 100%;
     float: left;
-    background-color: #333333;
+    background-color: #20b2aa;
     height: auto;
     padding: 20px 0px 25px 0px;
 }
