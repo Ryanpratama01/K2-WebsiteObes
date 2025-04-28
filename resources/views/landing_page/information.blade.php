@@ -86,6 +86,51 @@
       </div>
       <!-- banner section end -->
 
+      <!-- information section start -->
+      <div class="information_section layout_padding">
+         <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="{{asset('assets/user/images/information-bg.png')}}" class="d-block w-100" alt="Health Information 1">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Healthy Lifestyle</h5>
+                        <p>Discover the benefits of maintaining a healthy lifestyle to prevent obesity.</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img src="{{asset('assets/user/images/information-bg.png')}}" class="d-block w-100" alt="Health Information 2">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Balanced Diet</h5>
+                        <p>Learn about proper nutrition and balanced diet for optimal health.</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img src="{{asset('assets/user/images/information-bg.png')}}" class="d-block w-100" alt="Health Information 3">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Regular Exercise</h5>
+                        <p>Find out how regular physical activity can help maintain healthy weight.</p>
+                     </div>
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </div>
+      </div>
+      <!-- information section end -->
+
       <!-- about section start -->
       <div class="about_section layout_padding">
          <div class="container">
@@ -108,7 +153,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">CONTACT US</h1>
+                  <h1 class="contact_taital">Get In Touch</h1>
                </div>
             </div>
             <div class="contact_section_2">
@@ -125,7 +170,7 @@
                   <div class="col-md-6">
                      <div class="map_main">
                         <div class="map-responsive">
-                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Politeknik+Negeri+Jember" width="600" height="368" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="368" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                         </div>
                      </div>
                   </div>
@@ -141,9 +186,9 @@
             <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
                <a href="#" class="logo d-flex align-items-center">
-                  <span class="sitename" style="color: white">Mentor</span>
+                  <span class="sitename">Mentor</span>
                </a>
-               <div class="footer-contact pt-3" style="color: white">
+               <div class="footer-contact pt-3">
                   <p>Jalan Mastrip, Kec. Sumbersari</p>
                   <p>Politeknik Negeri Jember</p>
                   <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
@@ -158,21 +203,20 @@
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
-               <h4 style="color: white">Useful Links</h4>
+               <h4>Useful Links</h4>
                <ul>
-                  <li><a href="#" style="color: white">Home</a></li>
-                  <li><a href="#" style="color: white">About us</a></li>
-                  <li><a href="#" style="color: white">Contact</a></li>
-                  <li><a href="#" style="color: white">Login</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Login</a></li>
                </ul>
             </div>
             </div>
          </div>
 
          <div class="container copyright text-center mt-4">
-            <p style="color: white">© <span style="color: white">Copyright</span> <strong class="px-1 sitename" style="color: white">ObesityCheck Team</strong> <span style="color: white;">All Rights Reserved</span></p>
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">ObesityCheck Team</strong> <span>All Rights Reserved</span></p>
          </div>
       </footer>
-      
    </body>
 </html>

@@ -7,11 +7,6 @@ Route::get('/about', function () {
 
 });
 
-Route::get('/blog', function () {
-    return view('landing_page.blog');
-
-});
-
 Route::get('/contact', function () {
     return view('landing_page.contact');
 
@@ -22,7 +17,7 @@ Route::get('/', function () {
 
 });
 
-Route::get('/models', function () {
-    return view('landing_page.models');
+Route::get('/information', function () {
+    return view('landing_page.information');
 
 });
