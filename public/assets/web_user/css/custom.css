@@ -1,0 +1,13 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-teal {
+    background-color: #00796b !important;
+}
+
+.card h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

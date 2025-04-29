@@ -21,3 +21,7 @@ Route::get('/information', function () {
     return view('landing_page.information');
 
 });
+
+Route::get('/home', function () {
+    return view('web_user.beranda');
+});
