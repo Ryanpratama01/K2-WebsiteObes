@@ -839,3 +839,55 @@ textarea#comment::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+
+/* Information Section */
+.information_section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.information_title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #20B2AA;
+    margin-bottom: 20px;
+}
+
+.information_text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.information_btn .btn {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.information_btn .btn:hover {
+    background-color: #20B2AA;
+}
+
+.information_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .information_section {
+        padding: 20px 0;
+    }
+    .information_title {
+        font-size: 28px;
+    }
+    .information_text {
+        font-size: 16px;
+    }
+}
