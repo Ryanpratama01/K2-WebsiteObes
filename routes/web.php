@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebUserController;
 
 Route::get('/about', function () {
     return view('landing_page.about');
@@ -22,6 +23,5 @@ Route::get('/information', function () {
 
 });
 
-Route::get('/home', function () {
-    return view('web_user.beranda');
-});
+Route::get('/home', [WebUserController::class, 'beranda']);  // Mengarah ke metode 'beranda'
+Route::get('/kalkulator', [WebUserController::class, 'kalkulator']);

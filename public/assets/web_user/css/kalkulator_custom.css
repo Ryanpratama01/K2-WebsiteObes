@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: #00796B !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+.btn-bmi {
+    background-color: #2e7d32;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-bmi:hover {
+    background-color: #1b5e20;
+}
+
+/* Saat tombol dipilih (checked) */
+.btn-check:checked + .btn-outline-info,
+.btn-check:checked + .btn-outline-danger {
+    background-color: #00796B;
+    color: #fff;
+    border-color: #00796B;
+    font-weight: bold;
+}
+
+/* Tambahkan transisi agar smooth */
+.gender-toggle {
+    transition: all 0.3s ease;
+}
+
+
+.form-control {
+    border-radius: 8px;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+}
