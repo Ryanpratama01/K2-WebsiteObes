@@ -51,6 +51,9 @@
                      <li class="nav-item active">
                         <a class="nav-link" href="index.html" style="color: #20B2AA">Home</a>
                      </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="information.html" style="color: #20B2AA">Information</a>
+                     </li>
                      <li class="nav-item">
                         <a class="nav-link" href="about.html" style="color: #20B2AA">About</a>
                      </li>

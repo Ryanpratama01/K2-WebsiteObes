@@ -26,6 +26,7 @@
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    </head>
+
    <body>
       <div class="header_section">
          <div class="container-fluid">
@@ -80,6 +81,7 @@
          </div>
       </div>
       <!-- about section end -->
+      
       <!-- footer section start -->
       <div class="footer_section layout_padding margin_top90">
          <div class="container">

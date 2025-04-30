@@ -42,39 +42,45 @@
    <!-- Bootstrap JS -->
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
-
+   <!-- Link untuk font dari Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
-   <!-- header section start -->
-   <div class="header_section" style="color: white;">
-      <a class="navbar-brand" href="index.html" style="position: absolute; top: 0px; left: 20px;">
+      <!-- header section start -->
+      <div class="header_section" style="color: white;">
+      <a class="navbar-brand"href="index.html" style="position: absolute; top: 0px; left: 20px;">
          <img src="{{asset('assets/user/images/LogoObes.png')}}" alt="Logo Obesitaas" style="height: 70px;"></a>
-      <div class="container-fluid" style="background-color: white;">
-         <nav class="navbar navbar-expand-lg navbar-light bg-light bg-amber-50">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: aquamarine">
+         <div class="container-fluid" style="background-color: white;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-amber-50">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: aquamarine">
                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="index.html" style="color: #20B2AA">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="about.html" style="color: #20B2AA">About</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="contact.html" style="color: #20B2AA">Contact Us</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="information.html" style="color: #20B2AA">Login</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html" style="color: #20B2AA">Home</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="information.html" style="color: #20B2AA">Information</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html" style="color: #20B2AA">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html" style="color: #20B2AA">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="information.html" style="color: #20B2AA">Login</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
       </div>
-   </div>
    <!-- header section end -->
+
    <!-- banner section start -->
    <div class="banner_section layout_padding" style="">
       <div class="container">
@@ -95,9 +101,14 @@
    </div>
    <!-- banner section end -->
 
+   <!-- informasi -->
    <body>
+   <div class="information-page">  
       <div class="container">
          <h1>Informasi Tentang Obesitas</h1>
+         <p style="max-width: 700px; margin: 0 auto 30px; font-size: 16px; color: #444;">
+            Obesitas adalah kondisi medis yang ditandai dengan penumpukan lemak tubuh yang berlebihan. Kondisi ini dapat meningkatkan risiko berbagai penyakit serius seperti diabetes tipe 2, tekanan darah tinggi, penyakit jantung, dan masalah kesehatan lainnya.
+         </p>
          <section class="info-section">
             <div class="info-card">
                <h2>Penyebab Obesitas</h2>
@@ -118,12 +129,9 @@
                </p>
             </div>
          </section>
-         <div class="back-link">
-            <a href="">← Kembali ke Beranda</a>
-         </div>
       </div>
-   </body>
-
+   </div>
+</body>
 
 
    <!-- about section start -->

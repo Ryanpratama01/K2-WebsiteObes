@@ -840,54 +840,105 @@ textarea#comment::placeholder {
     margin-top: 90px;
 }
 
-
-/* Information Section */
-.information_section {
-    padding: 50px 0;
-    background-color: #f4f4f4;
+/*infrmasi*/
+/* Container umum */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background: transparent;
 }
 
-.information_title {
+/* Judul utama */
+.container h1 {
     font-size: 32px;
+    margin-bottom: 10px;
+    color: #222;
     font-weight: bold;
-    color: #20B2AA;
-    margin-bottom: 20px;
+    margin-top: 80px;
 }
 
-.information_text {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 30px;
+/* Section untuk kartu */
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
 }
 
-.information_btn .btn {
-    background-color: #008080;
+/* Kartu informasi */
+.info-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+/* Ikon bulat di atas kartu */
+.info-card::before {
+    content: "ℹ️"; /* Ganti sesuai kategori */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00aaa5;
     color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+    font-size: 28px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 30px);
+    border: 3px solid white;
 }
 
-.information_btn .btn:hover {
-    background-color: #20B2AA;
+/* Judul dalam kartu */
+.info-card h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
 }
 
-.information_img img {
-    max-width: 100%;
-    height: auto;
+/* Paragraf isi */
+.info-card p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+    background-color: #e0f7f5;
+    padding: 10px;
     border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-    .information_section {
-        padding: 20px 0;
-    }
-    .information_title {
-        font-size: 28px;
-    }
-    .information_text {
-        font-size: 16px;
-    }
+
+.back-link a {
+    text-decoration: none;
+    color: #008080;
+    font-weight: bold;
+}
+
+/* Aturan background hanya untuk halaman informasi */
+.information-page {
+    background-color: #e0f7f5;
+    background-image: radial-gradient(#cceeea 1px, transparent 1px);
+    background-size: 20px 20px;
+    min-height: 100vh;
+    width: 100%;
+    padding: 40px 0;
+    background-attachment: scroll;
+    box-sizing: border-box;
+}
+
+/* Aturan umum body untuk halaman lain */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background: none; /* Menghapus background untuk halaman lainnya */
 }
