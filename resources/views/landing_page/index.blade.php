@@ -230,43 +230,45 @@
       <!-- contact section end -->
 
       <!-- footer section end -->
-      <footer id="footer" class="footer position-relative light-background">
-         <div class="container footer-top">
-            <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 footer-about">
-               <a href="#" class="logo d-flex align-items-center">
-                  <span class="sitename" style="color: white">Mentor</span>
-               </a>
-               <div class="footer-contact pt-3" style="color: white">
-                  <p>Jalan Mastrip, Kec. Sumbersari</p>
-                  <p>Politeknik Negeri Jember</p>
-                  <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                  <p><strong>Email:</strong> <span>info@example.com</span></p>
+      <footer id="footer" class="footer position-relative light-background py-5">
+         <div class="container">
+            <div class="row justify-content-between">
+               
+               <!-- Kolom Kiri: Info Kontak -->
+               <div class="col-md-6 col-lg-3 text-start">
+               <h5 class="footer-title">OBESITY CHECK</h5>
+               <p class="footer-text fw-bold mb-1">Jalan Mastrip, Kec. Sumbersari</p>
+               <p class="footer-text fw-bold mb-3">Politeknik Negeri Jember</p>
+               <p class="footer-text mb-1"><strong>Telepon:</strong> +62 8965-8765-98768</p>
+               <p class="footer-text mb-3"><strong>Email:</strong> fbsjvfasbck@gmail.com</p>
+               <div class="d-flex gap-3">
+                  <a href="#" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="footer-icon"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="footer-icon"><i class="bi bi-twitter"></i></a>
                </div>
-               <div class="social-links d-flex mt-4">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                </div>
-            </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-               <h4 style="color: white">Useful Links</h4>
-               <ul>
-                  <li><a href="#" style="color: white">Home</a></li>
-                  <li><a href="#" style="color: white">About us</a></li>
-                  <li><a href="#" style="color: white">Contact</a></li>
-                  <li><a href="#" style="color: white">Login</a></li>
+               <!-- Kolom Kanan: Tautan Cepat -->
+               <div class="col-md-6 col-lg-3 text-start">
+               <h5 class="footer-title">Tautan Cepat</h5>
+               <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">Beranda</a></li>
+                  <li><a href="#" class="footer-link">About Us</a></li>
+                  <li><a href="#" class="footer-link">Contact</a></li>
+                  <li><a href="#" class="footer-link">Login</a></li>
                </ul>
-            </div>
-            </div>
-         </div>
+               </div>
 
-         <div class="container copyright text-center mt-4">
-            <p style="color: white">© <span style="color: white">Copyright</span> <strong class="px-1 sitename" style="color: white">ObesityCheck Team</strong> <span style="color: white;">All Rights Reserved</span></p>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+               <p class="footer-copy mb-0">© <strong>ObesityCheck Team</strong> All Rights Reserved</p>
+            </div>
          </div>
-      </footer>
+         </footer>
+
+
       
    </body>
 </html>
