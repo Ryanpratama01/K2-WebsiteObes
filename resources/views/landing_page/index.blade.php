@@ -95,6 +95,7 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="about_taital">About</div>
+                  <p class="about_taital2">BALALALALALALALALALALALALAAL</p>
                   <p class="about_text">Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,</p>
                   <div class="read_bt"><a href="#">Read More</a></div>
                </div>

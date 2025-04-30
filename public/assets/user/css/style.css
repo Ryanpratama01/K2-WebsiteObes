@@ -374,12 +374,19 @@ input.form-control::placeholder {
 .about_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 35px;
     color: #333333;
     padding-top: 33px;
     text-transform: uppercase;
 }
-
+.about_taital2 {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #333333;
+    margin: 0px;
+    padding-top: 100px;
+}
 .about_text {
     width: 100%;
     float: left;
