@@ -15,8 +15,9 @@
                 <img src="{{ asset('assets/web_user/images/LogoObes.png') }}" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Kalkulator</a></li>
+                <li class="nav-item"><a class="nav-link" href="/beranda">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/kalkulator') }}">Kalkulator</a></li>
+
                 <li class="nav-item"><a class="nav-link" href="#">Rekomendasi</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">History</a></li>
             </ul>
@@ -60,10 +61,10 @@
             <div class="card-body">
                 <h6>Status BMI terakhir</h6>
                 <div class="d-flex flex-wrap gap-2">
-                    <div class="badge bg-primary">BMI: 22.5 (Normal)</div>
+                    <div class="badge bg-primary">Kategori: Normal</div>
                     <div class="badge bg-info">Berat Badan: 60 kg</div>
                     <div class="badge bg-info">Tanggal Input: 29 April 2025</div>
-                    <div class="badge bg-info">Berat Badan Akhir: 61 kg</div>
+                    <div class="badge bg-info">Berat Badan Akhir: 59 kg</div>
                 </div>
                 <div class="alert alert-warning mt-2">
                     Anda juga dapat mengecek trend & status badan terakhir untuk melihat hasil perkembanganmu!

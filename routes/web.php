@@ -23,5 +23,5 @@ Route::get('/information', function () {
 
 });
 
-Route::get('/home', [WebUserController::class, 'beranda']);  // Mengarah ke metode 'beranda'
+Route::get('/beranda', [WebUserController::class, 'beranda']);
 Route::get('/kalkulator', [WebUserController::class, 'kalkulator']);
