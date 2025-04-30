@@ -35,6 +35,10 @@
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       
+      <!-- Check List-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+      
    </head>
    <body>
       <!-- header section start -->
@@ -142,16 +146,51 @@
 
       <!-- about section start -->
       <div class="about_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="about_taital">About</div>
-                  <p class="about_taital2">BERAT BADAN IDEAL</p>
-                  <p class="about_text">Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,</p>
-                  <div class="read_bt"><a href="#">Read More</a></div>
+         <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4 align-items-center justify-content-between">
+               <!-- Kolom Kiri: Teks -->
+               <div class="col-xl-6" data-aos="fade-up" data-aos-delay="200">
+                  <span class="about-meta">ABOUT</span>
+                  <h2 class="about-title">Berat Badan Ideal Untuk Kesehatan</h2>
+                  <p class="about-description">
+                     Aplikasi Cek Obesitas adalah alat bantu digital yang dirancang untuk 
+                     membantu pengguna mengetahui status berat badan mereka berdasarkan 
+                     indeks massa tubuh (IMT/BMI). Aplikasi ini cocok digunakan oleh siapa saja 
+                     yang ingin memantau kondisi tubuhnya secara mandiri dan cepat. Selain 
+                     hasil perhitungan, aplikasi juga menyediakan saran umum terkait gaya 
+                     hidup sehat dan pentingnya menjaga berat badan ideal untuk mengurangi 
+                     risiko penyakit kronis seperti diabetes, tekanan darah tinggi, 
+                     dan gangguan jantung.
+                  </p>
+                  <div class="row feature-list-wrapper">
+                     <div class="col-md-6">
+                        <ul class="feature-list">
+                           <li><i class="bi bi-check-circle-fill"></i> Checking IMT</li>
+                           <li><i class="bi bi-check-circle-fill"></i> Rekomendasi Hasil IMT/BMI</li>
+                           <li><i class="bi bi-check-circle-fill"></i> Statistik Perkembangan BB</li>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <ul class="feature-list">
+                           <li><i class="bi bi-check-circle-fill"></i> History Perkembangan</li>
+                           <li><i class="bi bi-check-circle-fill"></i> Dapat diakses siapa saja</li>
+                        </ul>
+                     </div>
+                  </div>
                </div>
-               <div class="col-md-6">
-                  <div class="about_img"><img src="{{asset('assets/user/images/about-img.png')}}"></div>
+
+               <!-- Kolom Kanan: Gambar -->
+               <div class="col-xl-5" data-aos="fade-up" data-aos-delay="300">
+                  <div class="image-wrapper">
+                     <div class="images position-relative" data-aos="zoom-out" data-aos-delay="700">
+                        <img src="assets/user/images/about1.jpg" alt="Pelatihan Workshop" class="img-fluid main-image rounded-4">
+                        <img src="assets/user/images/about2.jpeg" alt="Diskusi Grup" class="img-fluid small-image rounded-4">
+                     </div>
+                     <div class="experience-badge floating">
+                        <h3>Akurat</h3>
+                        <p>Seluruh informasi berasal dari halodoc</p>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
