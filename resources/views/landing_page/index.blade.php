@@ -86,13 +86,67 @@
       </div>
       <!-- banner section end -->
 
+      <!-- information section start -->
+      <div class="information_section layout_padding" style="">
+         <div class="container">
+         <h2 class="section-title">INFORMATION</h2>
+         <p class="section-subtitle">Obesitas adalah kondisi yang terjadi saat seseorang memiliki berat badan berlebih. Ada beberapa faktor yang bisa menjadi penyebab kondisi ini, mulai dari gaya hidup, faktor keturunan atau genetik, hingga riwayat penyakit tertentu. Lantas, bagaimana cara mengenali obesitas? Apa saja cara penanganan yang bisa dilakukan? </p>
+
+         <div class="card-scroll-wrapper">
+            <!-- Card 1 -->
+            <div class="info-card">
+               <div class="card-icon">
+                  <img src="assets/user/images/sebab-icon.png" alt="icon"/>
+               </div>
+               <h4 class="card-title">PENYEBAB OBESITAS</h4>
+               <div class="card-body">
+               <p>Ketika kadar kalori masuk lebih banyak dari yang dibutuhkan oleh tubuh<br>hal tersebut menyebabkan energi menjadi berlebihan, <br>sehingga diubah menjadi cadangan dalam bentuk lemak.</p>
+               <p>Jarang beraktivitas serta pola makan dan kebiasaan makan yang<br>tidak sehat</p>
+               <p>Pengaruh genetik, perilaku dan hormonal pada berat badan juga<br>menjadi salah satu penyebab obesitas.</p>
+               <p class="source">Sumber: <em>halodoc</em></p>
+               </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="info-card">
+               <div class="card-icon">
+                  <img src="assets/user/images/solusi-icon.png" alt="icon"/>
+               </div>
+               <h4 class="card-title">PENGOBATAN OBESITAS</h4>
+               <div class="card-body">
+               <p><strong>Latihan dan aktivitas:</strong> Orang dengan obesitas perlu melakukan setidaknya<br>150 menit seminggu aktivitas fisik intensitas sedang untuk mencegah<br>penambahan berat badan lebih lanjut.</p>
+               <p><strong>Konseling:</strong> Membantu memahami mengapa kamu bisa makan berlebihan...</p>
+               <p>Memotong kalori. Kunci untuk menurunkan berat badan adalah<br> mengurangi kalori yang dikonsumsi. Normalnya wanita butuh<br> 1.200 hingga 1.500 kalori dan pria butuh 1.500 hingga 1.800 kalori</p>
+               <p class="source">Sumber: <em>halodoc</em></p>
+               </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="info-card">
+               <div class="card-icon">
+                  <img src="assets/user/images/cegah-icon.png" alt="icon"/>
+               </div>
+               <h4 class="card-title">PENCEGAHAN OBESITAS</h4>
+               <div class="card-body">
+               <p>Berolahraga secara teratur berupa aktivitas intensitas sedang<br>selama 150 hingga 300 menit seminggu untuk mencegah penambahan berat badan.</p>
+               <p>Ikuti rencana makan sehat, dengan fokus pada makanan rendah<br>kalori, makanan padat nutrisi, seperti buah-buahan,<br>sayur-sayuran dan biji-bijian</p>
+               <p>Hindari lemak jenuh dan batasi permen dan alkohol</p>
+               <p>Memiliki pola pikir bahwa gaya hidup sehat harus dilakukan terus-menerus<br>bila berat badan menurun itu adalah bonus dari tubuh yang sehat.</p>
+               <p class="source">Sumber: <em>halodoc</em></p>
+               </div>
+            </div>
+         </div>
+         </div>
+      </div>
+      <!-- information section end -->
+
       <!-- about section start -->
       <div class="about_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
                   <div class="about_taital">About</div>
-                  <p class="about_taital2">BALALALALALALALALALALALALAAL</p>
+                  <p class="about_taital2">BERAT BADAN IDEAL</p>
                   <p class="about_text">Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,</p>
                   <div class="read_bt"><a href="#">Read More</a></div>
                </div>
