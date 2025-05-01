@@ -10,16 +10,15 @@ class WebUserController extends Controller
     //
     public function beranda()
 {
-    // Kode untuk mengembalikan view beranda
-    return view('web_user.beranda');
+    return view('web_user.beranda'); // Menampilkan halaman beranda
 }
 
 public function kalkulator()
 {
-    // Kode untuk mengembalikan view kalkulator
-    return view('web_user.kalkulator');
+    return view('web_user.kalkulator'); // Menampilkan halaman kalkulator
 }
 
+<<<<<<< HEAD
 public function history()
 {
     return view('web_user.history');
@@ -28,6 +27,8 @@ public function rekomendasi()
 {
     return view('web_user.rekomendasi');
 }
+=======
+>>>>>>> 8464a6f2bcb7801ab8902718f7c698484a392dfc
 }
 
 

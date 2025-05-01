@@ -3,8 +3,14 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.bg-teal {
-    background-color: #546765 !important;
+.navbar {
+    background-color: #00796B !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #fff;
+    font-weight: bold;
 }
 
 .card h6 {
@@ -23,3 +29,4 @@ body {
     opacity: 1;
     transition: opacity 0.3s ease-in;
 }
+
