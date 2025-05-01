@@ -19,6 +19,15 @@ public function kalkulator()
     // Kode untuk mengembalikan view kalkulator
     return view('web_user.kalkulator');
 }
+
+public function history()
+{
+    return view('web_user.history');
+}
+public function rekomendasi()
+{
+    return view('web_user.rekomendasi');
+}
 }
 
 

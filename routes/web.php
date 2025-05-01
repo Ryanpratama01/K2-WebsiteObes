@@ -23,5 +23,24 @@ Route::get('/information', function () {
 
 });
 
-Route::get('/home', [WebUserController::class, 'beranda']);  // Mengarah ke metode 'beranda'
-Route::get('/kalkulator', [WebUserController::class, 'kalkulator']);
+
+// Halaman Beranda
+Route::get('/', function () {
+    return view('web_user.beranda');
+})->name('beranda');
+
+// Halaman Kalkulator
+Route::get('/kalkulator', function () {
+    return view('web_user.kalkulator');
+})->name('kalkulator');
+
+// Halaman Rekomendasi
+Route::get('/rekomendasi', function () {
+    return view('web_user.rekomendasi');
+})->name('rekomendasi');
+
+// Halaman History
+Route::get('/history', function () {
+    return view('web_user.history');
+})->name('history');
+
