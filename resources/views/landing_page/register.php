@@ -23,7 +23,26 @@
             min-height: 100vh;
             background-color: #20b2aa;
         }
+        .close-icon-link {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            text-decoration: none;
+            z-index: 2;
+        }
 
+        .close-icon {
+            font-size: 35px;
+            color: #000000; /* Warna hitam */
+            transition: opacity 0.3s;
+            line-height: 1;
+            cursor: pointer;
+        }
+
+        .close-icon:hover {
+            opacity: 0.7;
+            color: #000000; /* Pastikan tetap hitam saat hover */
+        }
         .register-container {
             background-color: white;
             padding: 2rem;
@@ -137,11 +156,12 @@
 </head>
 <body>
 <div class="register-container">
-        <div class="logo-container">
-            <!-- Ganti "logo.png" dengan path/URL logo Anda -->
-            <img src="assets/user/images/LogoObes.png" alt="Website Logo" class="website-logo">
-        </div>
-        <h1 class="register-title">REGISTER</h1>
+    <a href="/home" class="close-icon-link"><span class="close-icon">&times;</span></a>
+    <div class="logo-container">
+        <!-- Ganti "logo.png" dengan path/URL logo Anda -->
+        <img src="assets/user/images/LogoObes.png" alt="Website Logo" class="website-logo">
+    </div>
+    <h1 class="register-title">REGISTER</h1>
         <form id="registerForm">
             <!-- Jenis Kelamin -->
             <div class="form-group">
