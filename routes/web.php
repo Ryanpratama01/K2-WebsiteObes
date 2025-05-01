@@ -22,6 +22,5 @@ Route::get('/information', function () {
     return view('landing_page.information');
 
 });
-
 Route::get('/beranda', [WebUserController::class, 'beranda']);
 Route::get('/kalkulator', [WebUserController::class, 'kalkulator']);
