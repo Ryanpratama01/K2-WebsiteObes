@@ -27,7 +27,7 @@
 
       <!-- fevicon -->
       <link href="assets/user/images/LogoObes.png" rel="icon">
-      <link href="assets/user/images/logoObes.png" rel="LogoObes">
+      <link href="assets/user/images/LogoObes.png" rel="LogoObes">
 
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{asset('assets\user\css/jquery.mCustomScrollbar.min.css')}}">
@@ -65,7 +65,7 @@
                         <a class="nav-link" href="/home#contact" style="color: #20B2AA">Contact Us</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link login-link" href="home#loginModal" style="color: #20B2AA">Login</a>
+                        <a class="nav-link" href="/login" style="color: #20B2AA">Login</a>
                      </li>
                   </ul>
                </div>
@@ -259,7 +259,7 @@
                   <li><a href="/home#information" class="footer-link">Informasi</a></li>
                   <li><a href="/home#about" class="footer-link">About Us</a></li>
                   <li><a href="/home#contact" class="footer-link">Contact</a></li>
-                  <li><a href="login" class="footer-link">Login</a></li>
+                  <li><a href="landing_page.login" class="footer-link">Login</a></li>
                </ul>
                </div>
 
@@ -271,33 +271,6 @@
             </div>
          </div>
          </footer>
-
-      <!-- POP UP Login start-->
-      <!-- Popup Login -->
-      <div id="loginModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Login</h2>
-            <form id="loginForm">
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" autocomplete="username" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" autocomplete="current-password" required>
-                </div>
-                <button type="submit" class="login-btn">Login</button>
-            </form>
-            <div class="additional-links">
-                <a href="#" class="forgot-password">Lupa Password?</a>
-                <a href="#" class="create-account">Buat Akun Baru</a>
-            </div>
-        </div>
-      </div>
-
-      <script src="../../../js/script.js"></script>
-      <!-- POP UP Login end-->
 
    </body>
 </html>

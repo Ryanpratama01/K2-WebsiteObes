@@ -22,3 +22,11 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return redirect('/home#contact');
 });
+Route::get('/login', function () {
+    return view('landing_page.login');
+
+});
+Route::get('/register', function () {
+    return view('landing_page.register');
+
+});
