@@ -30,5 +30,3 @@ public function rekomendasi()
 =======
 >>>>>>> 8464a6f2bcb7801ab8902718f7c698484a392dfc
 }
-
-
