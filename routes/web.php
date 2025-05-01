@@ -30,3 +30,11 @@ Route::get('/register', function () {
     return view('landing_page.register');
 
 });
+Route::get('/forgotpassword', function () {
+    return view('landing_page.forgot');
+
+});
+Route::get('/resetpassword', function () {
+    return view('landing_page.reset');
+
+});

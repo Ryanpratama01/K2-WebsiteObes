@@ -259,12 +259,10 @@
                   <li><a href="/home#information" class="footer-link">Informasi</a></li>
                   <li><a href="/home#about" class="footer-link">About Us</a></li>
                   <li><a href="/home#contact" class="footer-link">Contact</a></li>
-                  <li><a href="landing_page.login" class="footer-link">Login</a></li>
+                  <li><a href="/login" class="footer-link">Login</a></li>
                </ul>
                </div>
-
             </div>
-
             <!-- Copyright -->
             <div class="text-center mt-4">
                <p class="footer-copy mb-0">© <strong>ObesityCheck Team</strong> All Rights Reserved</p>
