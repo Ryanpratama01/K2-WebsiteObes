@@ -23,8 +23,5 @@ Route::get('/information', function () {
 
 });
 
-
-
-
 Route::get('/beranda', [WebUserController::class, 'beranda']);
 Route::get('/kalkulator', [WebUserController::class, 'kalkulator']);
