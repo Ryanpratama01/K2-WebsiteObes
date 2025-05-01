@@ -23,29 +23,8 @@ Route::get('/information', function () {
 
 });
 
-<<<<<<< HEAD
 
-// Halaman Beranda
-Route::get('/', function () {
-    return view('web_user.beranda');
-})->name('beranda');
 
-// Halaman Kalkulator
-Route::get('/kalkulator', function () {
-    return view('web_user.kalkulator');
-})->name('kalkulator');
 
-// Halaman Rekomendasi
-Route::get('/rekomendasi', function () {
-    return view('web_user.rekomendasi');
-})->name('rekomendasi');
-
-// Halaman History
-Route::get('/history', function () {
-    return view('web_user.history');
-})->name('history');
-
-=======
 Route::get('/beranda', [WebUserController::class, 'beranda']);
 Route::get('/kalkulator', [WebUserController::class, 'kalkulator']);
->>>>>>> 8464a6f2bcb7801ab8902718f7c698484a392dfc
